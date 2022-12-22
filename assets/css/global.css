@@ -2,3 +2,7 @@ ol li {
   list-style: decimal;
   list-style-position: inside;
 }
+
+html, body {
+  height: 100%;
+}
