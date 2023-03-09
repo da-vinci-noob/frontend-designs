@@ -86,13 +86,76 @@
           </div>
         </div>
       </div>
-      <div id="content">
+      <div id="content" class="mt-2 flex flex-row">
         <div id="main-content">
-          <div id="financial-data"></div>
-          <div id="daily-activity-chart"></div>
+          <div
+            id="financial-data"
+            class="flex flex-row rounded-2xl bg-gray-300"
+          >
+            <div class="p-6">
+              <div>
+                <p class="text-xl">
+                  Financial
+                </p>
+                <p class="text-xs text-gray-500">May 1, 2022 - Sep 1, 2022</p>
+              </div>
+              <div class="flex flex-row mt-4 justify-between">
+                <div>
+                  <p>
+                    <Icon name="fa6-solid:circle-dot" />
+                    <span class="ml-2">Total Sales</span>
+                  </p>
+                  <p class="ml-6">5,273</p>
+                  <p class="ml-6">Products</p>
+                </div>
+                <div class="w-px bg-gray-400"></div>
+                <div>
+                  <p>
+                    <Icon name="fa6-solid:circle-dot" />
+                    <span class="ml-2">Total Views</span>
+                  </p>
+                  <p class="ml-6">42,725</p>
+                  <p class="ml-6">Views</p>
+                </div>
+              </div>
+              <div
+                class="border-2 border-gray-400 rounded-2xl py-4 pl-4 pr-24 -ml-4 mt-4 space-y-2"
+              >
+                <p class="text-sm">
+                  Total Revenue <span class="text-green-700">+ 10.27 %</span>
+                </p>
+                <p class="text-2xl font-bold">$ 31,147,13</p>
+                <p class="text-sm text-gray-400">
+                  Increased 15% from last month
+                </p>
+              </div>
+            </div>
+            <div class="bg-gray-200 rounded-2xl p-6">
+              <div>
+                <div class="text-xl">
+                  Chronich Condition
+                </div>
+                <div>
+                  Month arrow
+                </div>
+              </div>
+              <div class="h-1/2">
+                <img
+                  src="https://unsplash.com/photos/l3N9Q27zULw/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MzJ8fGNoYXJ0fGVufDB8fHx8MTY3MTgyODgzOQ&force=true&w=640"
+                  alt=""
+                  class="object-bottom"
+                />
+              </div>
+            </div>
+          </div>
+          <div id="daily-activity-chart">
+            Daily Activity Chart
+          </div>
         </div>
 
-        <div id="agent-rates"></div>
+        <div id="agent-rates">
+          Rates
+        </div>
       </div>
     </div>
   </div>
